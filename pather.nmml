@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="pather" file="pather" main="Main" version="0.0.1" company="Pause 9" />
+	
+	<window width="1280" height="720" fps="60" orientation="portrait" resizable="false" if="web" />
+	<window width="1280" height="720" fps="60" orientation="landscape" fullscreen="false" unless="web" />
+ 	
+	<set name="BUILD_DIR" value="bin" />
+	
+	<!--<setenv name="no_console" value="1" />-->
+	
+	<classpath name="source" />
+	
+	<assets path="assets" if="android" >
+		<sound path="data/beep.wav" id="Beep" />
+		
+		<!-- Your sound embedding code here... -->
+		
+	</assets>
+	
+	<assets path="assets" if="desktop" >
+		<sound path="data/beep.wav" id="Beep" />
+		
+		<!-- Your sound embedding code here... -->
+		
+	</assets>
+	
+	<assets path="assets" if="flash" >
+		<sound path="data/beep.mp3" id="Beep" />
+		<sound path="/sounds/ballhit.wav" id="Bounce" />
+		<sound path="/sounds/bubblygoal.wav" id="Goal" />
+		<sound path="/sounds/energyhit.wav" id="dWallBall" />
+		<!-- Your sound embedding code here... -->
+		
+	</assets>
+	
+	<assets path="assets" if="target_js" >
+		<sound path="data/beep.mp3" id="Beep" />
+		
+		<!-- Your sound embedding code here... -->
+		
+	</assets>
+	
+	<assets path="assets" exclude="*.wav" if="flash" />
+	<assets path="assets" unless="flash" />
+	
+	<icon name="assets/icon.png" />
+	
+	<haxedef name="NAPE_RELEASE_BUILD"/>
+	<haxelib name="nme" />
+	<haxelib name="flixel"/>
+	<haxelib name="nape"/>
+
+	<app preloader="PNinePreloader" />
+</project>

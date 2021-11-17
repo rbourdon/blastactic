@@ -1,0 +1,43 @@
+<level width="1280" height="720" credits="45">
+  <BG tileset="bg5" exportMode="XML">
+    <tile x="0" y="0" id="0" />
+  </BG>
+  <Objects>
+    <Cannon id="0" x="598" y="567" angle="3.141593" shots="30" />
+    <deathwall1 id="1" x="83" y="572" angle="0" />
+    <corner id="3" x="325" y="185" angle="2.356194" />
+    <corner id="4" x="661" y="379" angle="-0.7853982" />
+    <Goal id="2" x="216" y="101" hitsNeeded="5" />
+    <Goal id="5" x="924" y="470" hitsNeeded="9" />
+    <deathwall4 id="6" x="748" y="602" angle="-0.7853982" />
+    <deathwall4 id="7" x="937" y="676" angle="-1.570796" />
+    <deathwall4 id="8" x="936" y="153" angle="1.570796" />
+    <deathwall2 id="9" x="317" y="426" angle="3.141593" />
+    <deathwall4 id="10" x="1122" y="232" angle="2.356194" />
+    <levelobject1 id="12" x="938" y="565" />
+    <wallbump id="15" x="352" y="383" />
+    <wallbump id="16" x="394" y="383" />
+    <wallbump id="17" x="437" y="383" />
+    <wallbump id="18" x="479" y="383" />
+    <wallbump id="19" x="522" y="383" />
+    <wallbump id="20" x="565" y="383" />
+    <wallbump id="21" x="609" y="383" />
+    <wallbump id="22" x="1210" y="506" />
+    <wallbump id="23" x="1211" y="462" />
+    <wallbump id="24" x="1210" y="419" />
+    <wallbump id="25" x="1211" y="375" />
+    <wallbump id="26" x="1211" y="331" />
+    <levelobject1 id="13" x="939" y="265" />
+    <wallbump id="27" x="128" y="231" />
+    <wallbump id="28" x="128" y="274" />
+    <wallbump id="29" x="127" y="317" />
+    <wallbump id="30" x="1192" y="550" />
+    <wallbump id="31" x="1163" y="578" />
+    <wallbump id="32" x="1135" y="608" />
+    <wallbump id="33" x="1106" y="637" />
+    <wallbump id="34" x="1078" y="665" />
+    <levelbar1 id="11" x="939" y="415" angle="0" />
+    <deathwall4 id="14" x="468" y="194" angle="1.570796" />
+    <Goal id="35" x="925" y="334" hitsNeeded="9" />
+  </Objects>
+</level>

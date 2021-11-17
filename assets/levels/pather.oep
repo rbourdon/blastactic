@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OgmoVersion>2.1.0.5</OgmoVersion>
+  <Name>Blastactic</Name>
+  <BackgroundColor A="255" R="192" G="192" B="192" />
+  <GridColor A="255" R="255" G="128" B="0" />
+  <LevelDefaultSize>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </LevelDefaultSize>
+  <LevelMinimumSize>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </LevelMinimumSize>
+  <LevelMaximumSize>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </LevelMaximumSize>
+  <Filename>C:\Users\Ross\Google Drive\Pause 9\Pather\assets\levels\pather.oep</Filename>
+  <AngleMode>Radians</AngleMode>
+  <CameraEnabled>false</CameraEnabled>
+  <CameraSize>
+    <Width>640</Width>
+    <Height>480</Height>
+  </CameraSize>
+  <ExportCameraPosition>false</ExportCameraPosition>
+  <LevelValueDefinitions>
+    <ValueDefinition xsi:type="IntValueDefinition" Name="credits" Default="0" Min="0" Max="100" ShowSlider="true" />
+  </LevelValueDefinitions>
+  <LayerDefinitions>
+    <LayerDefinition xsi:type="TileLayerDefinition">
+      <Name>BG</Name>
+      <Grid>
+        <Width>1280</Width>
+        <Height>720</Height>
+      </Grid>
+      <ScrollFactor>
+        <X>1</X>
+        <Y>1</Y>
+      </ScrollFactor>
+      <ExportMode>XML</ExportMode>
+    </LayerDefinition>
+    <LayerDefinition xsi:type="EntityLayerDefinition">
+      <Name>Objects</Name>
+      <Grid>
+        <Width>1</Width>
+        <Height>1</Height>
+      </Grid>
+      <ScrollFactor>
+        <X>1</X>
+        <Y>1</Y>
+      </ScrollFactor>
+    </LayerDefinition>
+  </LayerDefinitions>
+  <Tilesets>
+    <Tileset>
+      <Name>bg1</Name>
+      <FilePath>..\levelblock1.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg2</Name>
+      <FilePath>..\levelblock2.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg3</Name>
+      <FilePath>..\levelblock3.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg4</Name>
+      <FilePath>..\levelblock4.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg5</Name>
+      <FilePath>..\levelblock5.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg6</Name>
+      <FilePath>..\levelblock6.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg7</Name>
+      <FilePath>..\levelblock7.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg8</Name>
+      <FilePath>..\levelblock8.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg9</Name>
+      <FilePath>..\levelblock9.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg10</Name>
+      <FilePath>..\levelblock10.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg11</Name>
+      <FilePath>..\levelblock11.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg12</Name>
+      <FilePath>..\levelblock12.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg13</Name>
+      <FilePath>..\levelblock13.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg14</Name>
+      <FilePath>..\levelblock14.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>bg15</Name>
+      <FilePath>..\levelblock15.png</FilePath>
+      <TileSize>
+        <Width>1281</Width>
+        <Height>721</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+  </Tilesets>
+  <EntityDefinitions>
+    <EntityDefinition Name="Goal" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>27</Width>
+        <Height>27</Height>
+      </Size>
+      <Origin>
+        <X>0</X>
+        <Y>0</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\goalcomplete.png" Tiled="false">
+        <RectColor A="255" R="128" G="255" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions>
+        <ValueDefinition xsi:type="IntValueDefinition" Name="hitsNeeded" Default="1" Min="1" Max="9" ShowSlider="true" />
+      </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="Cannon" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>94</Width>
+        <Height>116</Height>
+      </Size>
+      <Origin>
+        <X>47</X>
+        <Y>58</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\shotgun.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions>
+        <ValueDefinition xsi:type="IntValueDefinition" Name="shots" Default="30" Min="1" Max="50" ShowSlider="true" />
+      </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="deathwall1" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>23</Width>
+        <Height>72</Height>
+      </Size>
+      <Origin>
+        <X>11</X>
+        <Y>36</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\deathwall1.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="deathwall2" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>23</Width>
+        <Height>117</Height>
+      </Size>
+      <Origin>
+        <X>11</X>
+        <Y>58</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\deathwall2.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="deathwall3" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>23</Width>
+        <Height>164</Height>
+      </Size>
+      <Origin>
+        <X>11</X>
+        <Y>82</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\deathwall3.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="deathwall4" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>23</Width>
+        <Height>209</Height>
+      </Size>
+      <Origin>
+        <X>11</X>
+        <Y>104</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\deathwall4.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="wallbump" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>39</Width>
+        <Height>39</Height>
+      </Size>
+      <Origin>
+        <X>19</X>
+        <Y>19</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\wallbump.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="corner" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>29</Width>
+        <Height>57</Height>
+      </Size>
+      <Origin>
+        <X>14</X>
+        <Y>28</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\corner.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelbar1" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>290</Width>
+        <Height>35</Height>
+      </Size>
+      <Origin>
+        <X>145</X>
+        <Y>17</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelbar1.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelbar2" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>377</Width>
+        <Height>35</Height>
+      </Size>
+      <Origin>
+        <X>188</X>
+        <Y>17</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelbar2.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelbar3" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>481</Width>
+        <Height>35</Height>
+      </Size>
+      <Origin>
+        <X>240</X>
+        <Y>17</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelbar3.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelbar4" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="true" RotateIncrement="45">
+      <Size>
+        <Width>582</Width>
+        <Height>35</Height>
+      </Size>
+      <Origin>
+        <X>291</X>
+        <Y>17</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelbar4.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelobject1" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>44</Width>
+        <Height>44</Height>
+      </Size>
+      <Origin>
+        <X>22</X>
+        <Y>22</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelobject1.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelobject2" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>66</Width>
+        <Height>66</Height>
+      </Size>
+      <Origin>
+        <X>33</X>
+        <Y>33</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelobject2.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelobject3" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>100</Width>
+        <Height>100</Height>
+      </Size>
+      <Origin>
+        <X>50</X>
+        <Y>50</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelobject3.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="levelobject4" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>151</Width>
+        <Height>150</Height>
+      </Size>
+      <Origin>
+        <X>75</X>
+        <Y>75</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="..\levelobject4.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+  </EntityDefinitions>
+</project>
